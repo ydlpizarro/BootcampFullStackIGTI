@@ -1,0 +1,17 @@
+#atari {
+    width: 1em;
+    height: 1em;
+    overflow: hidden;
+    margin: 50px 0 70px 65px;
+    box-shadow: 0 0 0 1em black, 0 1em 0 1em black, -2.5em 1.5em 0 .5em black, 2.5em 1.5em 0 .5em black, -3em -3em 0 0 black, 3em -3em 0 0 black, -2em -2em 0 0 black, 2em -2em 0 0 black, -3em -1em 0 0 black, -2em -1em 0 0 black, 2em -1em 0 0 black, 3em -1em 0 0 black, -4em 0 0 0 black, -3em 0 0 0 black, 3em 0 0 0 black, 4em 0 0 0 black, -5em 1em 0 0 black, -4em 1em 0 0 black, 4em 1em 0 0 black, 5em 1em 0 0 black, -5em 2em 0 0 black, 5em 2em 0 0 black, -5em 3em 0 0 black, -3em 3em 0 0 black, 3em 3em 0 0 black, 5em 3em 0 0 black, -2em 4em 0 0 black, -1em 4em 0 0 black, 1em 4em 0 0 black, 2em 4em 0 0 black;
+    background: rgb(0, 0, 0);
+}
+
+span {
+    float: left;
+    width: 100px;
+}
+
+body {
+    margin-left: 20%;
+}
