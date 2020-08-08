@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de Usuários</title>
+    <script src="resultado.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Pesquisa de Usuários</h1>
+    <div class="forms">
+        <form action="">
+            <input type="text" name="name" id="name" placeholder="Busca">
+            <!-- <input type="submit" value="Buscar"> -->
+        </form>
+    </div>
+    <div class="results">
+        <ul class="users">
+            <h2 id="numusers"></h2>
+            <li class="usersList">
+                <figure>
+                    <img src="https://randomuser.me/api/portraits/women/13.jpg" alt="" srcset="">
+                </figure>
+                <span id="infouser">Teste</span>
+            </li>
+
+        </ul>
+        <ul class="statistics">
+            <li class="statisticsList">
+                <h2 id="statisticsContent">Estatísticas</h2>
+                <span class="statisticsInfo" id="men">Sexo Masculino:1</span>
+                <span class="statisticsInfo" id="women">Sexo Feminino:2</span>
+                <span class="statisticsInfo" id="sumAge">Soma das idades: 140</span>
+                <span class="statisticsInfo" id="meanAge">Média das idades:46,67</span>
+            </li>
+        </ul>
+    </div>
+
+
+</body>
+
+</html>
