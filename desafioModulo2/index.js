@@ -10,10 +10,5 @@ app.use('/grades-control-api', gradesRouter);
 
 
 app.listen(3000, async() => {
-    try {
-        const vetor = await fs.readFile(global.fileName)
-    } catch (err) {
-        console.log('Error Reading Grades.json');
-    }
     console.log('Api Started!')
 });
